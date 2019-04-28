@@ -1,6 +1,10 @@
 ## yh-js-Kit
 Commonly used js tool functions
 
+```bash
+npm i yh-js-kit --save
+```
+
 ### AboutCookie
 
 *   setCookie(name, value)
