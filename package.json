@@ -1,0 +1,11 @@
+{
+  "name": "yh-js-kit",
+  "version": "1.0.0",
+  "description": "Commonly used js tool functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael",
+  "license": "ISC"
+}
