@@ -7,7 +7,7 @@ const config = require( './package' );
 const banner =
   '/*!\n' +
   ' * AppDownload v' + config.version + '\n' +
-  ' * last update: ' + (new Date()).toLocaleDateString() + ', author: skeetershi\n' +
+  ' * last update: ' + (new Date()).toLocaleDateString() + ', author: michael\n' +
   ' * Released under the MIT License.\n' +
   ' */'
 
@@ -28,12 +28,13 @@ export default {
   {
     name: 'michael',
     file: './dist/bundle.js',
-    format: 'umd'
+    format: 'umd',
+    banner: banner
   },
   {
     file: './dist/bundle.esm.js',
-    format: 'esm'
+    format: 'esm',
+    banner: banner
   }
   ],
-  banner
 };
