@@ -12,8 +12,7 @@
 function arraySortByKey(name) {
   return function demo(o, p) {
 
-    let a
-    let b
+    let a, b
 
     if (typeof o === 'object' && typeof p === 'object' && o && p) {
       a = o[name]
