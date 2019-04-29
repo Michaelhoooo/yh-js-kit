@@ -30,11 +30,6 @@ function deepCopy(someStructure, options) {
   }
 }
 
-export default {
+export {
   deepCopy
 }
-// let ary = [{name: 1},{name: 2}]
-// let ary2 = deepCopy(ary)
-
-// console.log(ary)
-// console.log(ary2)

@@ -44,6 +44,6 @@ function formatThousand(str = '') {
   return chunkString(str + '', 3, true).reverse().join(',')
 }
 
-export default {
+export {
   formatThousand
 }

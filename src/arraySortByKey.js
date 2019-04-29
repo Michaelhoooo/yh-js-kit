@@ -31,6 +31,6 @@ function arraySortByKey(name) {
   }
 }
 
-export default {
+export {
   arraySortByKey
 }

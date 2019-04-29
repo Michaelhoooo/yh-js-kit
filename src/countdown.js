@@ -24,7 +24,7 @@ function getEndTime(endTime){
   };
 }
 
-export default {
+export {
   getEndTime
 }
 

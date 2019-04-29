@@ -13,6 +13,6 @@ function browserInfo(type) {
   }
 }
 
-export default {
+export {
   browserInfo
 }

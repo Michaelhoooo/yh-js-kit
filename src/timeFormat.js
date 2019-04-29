@@ -35,6 +35,6 @@ function timeFormat({time, format = 'yyyy-MM-dd HH:mm'}) {
   })
 }
 
-export default {
+export {
   timeFormat
 }

@@ -26,6 +26,6 @@ function unique(array, key) {
 }
 
 
-export default {
+export {
   unique
 }

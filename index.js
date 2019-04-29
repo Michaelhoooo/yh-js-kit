@@ -12,7 +12,7 @@ import { getPagedArray } from './src/pagingComponent'
 import { timeFormat } from './src/timeFormat'
 import { browserInfo } from './src/uaJudgment'
 
-export default {
+export {
   setCookie, 
   getCookie, 
   delCookie,

@@ -14,7 +14,7 @@ function filterParams(obj){
   return _newPar;
 }
 
-export default {
+export {
   filterParams
 }
 // console.log(filterParams({a:0, b:1, c:"010", d:null, e:undefined,f:false}) )

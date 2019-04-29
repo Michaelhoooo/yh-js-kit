@@ -5,6 +5,12 @@ Commonly used js tool functions
 npm i yh-js-kit --save
 ```
 
+```js
+import { timeFormat, setCookie } from 'yh-js-kit'
+
+const obj = require('yh-js-kit')
+```
+
 ### AboutCookie
 
 *   setCookie(name, value)

@@ -32,6 +32,6 @@ function moneyChange(n) {
 } 
 
 
-export default {
+export {
   moneyChange
 }

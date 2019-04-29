@@ -29,7 +29,7 @@ function delCookie(name) {
   }
 }
 
-export default {
+export {
   setCookie,
   getCookie,
   delCookie

@@ -42,7 +42,7 @@ function changeCase(str, type) {
   }
 }
 
-export default {
+export {
   changeCase
 }
 

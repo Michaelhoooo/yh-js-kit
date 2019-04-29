@@ -27,6 +27,6 @@ const getPagedArray = (total,cur,around) => {
   return result
 }
 
-export default {
+export {
   getPagedArray
 }
